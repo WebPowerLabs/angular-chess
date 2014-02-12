@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/angular-chess" config.wsgi:application
